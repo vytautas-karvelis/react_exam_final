@@ -5,6 +5,8 @@
 
 .registrationForm {
     display:flex;
+    border: 2px solid tomato;
+    border-radius: 4px;
 }
 
 .leftSide {
@@ -21,26 +23,26 @@
     padding:1.5rem;
     height:500px;
     display: relative;
-    border: 1px solid red;
+    
 }
 
 svg.secondSvg {
     width: 300px;
     margin: 0 auto;
     display: block;
-    position: absolute;
-    top:1rem;
-    left:3rem;
+    position: relative;
+    top:-5rem;
+    left:1rem;
 }
 
 svg.firstSvg {
     width:8rem;
-    position: absolute;
+    
     left:3rem;
 }
 
 .promotion {
-    position: absolute;
+    position: relative;
     bottom: 7rem;
     color: white;
     left:5rem;
