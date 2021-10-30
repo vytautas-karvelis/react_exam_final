@@ -1,0 +1,13 @@
+button {
+    padding: 0.6rem 2rem;
+    margin-right: 1rem;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    position: relative;
+}
+
+button svg {
+    position: absolute;
+    left: 0.3rem;
+    top: 0.4rem;
+}

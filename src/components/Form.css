@@ -1,0 +1,30 @@
+label {
+    display:block;
+}
+
+input {
+    width: 280px;
+    padding:0.5rem 1.7rem;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    outline: none;
+}
+
+.formControl {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.f1 svg, .f2 svg, .f3 svg {
+    position: absolute;
+    left:5px;    
+    top:30px;
+}
+
+.f4 button {
+    background-color: tomato;
+    width: 340px;
+    height: 40px;
+    color:white;
+    border:none;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.registrationForm {
+    display:flex;
+}
+
+.leftSide {
+    background-color: tomato;
+    width: 340px;
+    padding:1.5rem;
+    height:500px;
+    display: relative;
+}
+
+.rightSide {
+    background-color: white;
+    width: 340px;
+    padding:1.5rem;
+    height:500px;
+    display: relative;
+    border: 1px solid red;
+}
+
+svg.secondSvg {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    top:1rem;
+    left:3rem;
+}
+
+svg.firstSvg {
+    width:8rem;
+    position: absolute;
+    left:3rem;
+}
+
+.promotion {
+    position: absolute;
+    bottom: 7rem;
+    color: white;
+    left:5rem;
+}
+
+.promotionTop {
+    position: absolute;
+    left: 1rem;
+    bottom: 2rem;
+}
+
+.rightSide h2 {
+    margin-bottom: 1rem;
+}
+
+.rightSide .firstH5 {
+    margin-bottom: 0.8rem;
+}
+
+.buttonContainer {
+    margin-top: 1.5rem;
+}
+
+.midH4 {
+    margin-top: 1rem;
+    text-align: center;
+}
